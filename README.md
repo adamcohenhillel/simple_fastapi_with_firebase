@@ -32,7 +32,7 @@ python3 -m pip install -r requirements.txt
 ```
 
 Set environment variables [for Firebase]:
-for fulle explanation, read: https://firebase.google.com/docs/admin/setup#python_1
+for fulle explanation, read: https://firebase.google.com/docs/admin/setup#add-sdk
 ```
 export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/service-account-file.json"
 ```
