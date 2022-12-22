@@ -1,0 +1,10 @@
+#API:
+fastapi==0.78.0
+pydantic==1.9.1
+uvicorn[standard]==0.18.2
+firebase-admin==6.0.1
+
+# CI/CD;
+pytest==7.1.2
+pytest-asyncio==0.18.3
+flake8==4.0.1
