@@ -37,7 +37,7 @@ for fulle explanation, read: https://firebase.google.com/docs/admin/setup#python
 export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/service-account-file.json"
 ```
 
-*And run:*
+##### And run:
 ```
 python3 run_api.py
 ```
