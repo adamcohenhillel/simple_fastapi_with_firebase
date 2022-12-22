@@ -1,12 +1,17 @@
 # Simple FastAPI with Firebase Authentication
 I always start my projects with a baseline that includes user management, which I handle using Firebase. This repository contains the most basic FastAPI application that I use as a starting point for new projects.
 
-* Set up a FastAPI app which is connected to Firebase Auth Project
-* Simple "Protected" API Endpoint (requires user auth)
-
-In the future I will add some basic SQLAlchemy setups, simple CI, etc.
+- Set up a FastAPI app which is connected to Firebase Auth Project
+- Simple "Protected" API Endpoint (requires user auth)
 
 
+To Add
+- basic SQLAlchemy setups / connectors
+- Simple CI to add tests easily and run them in GitHub actions
+- Redis?
+
+
+------------
 ### Setup:
 First, make sure you have a Firebase project, with Auth app:
 ```
