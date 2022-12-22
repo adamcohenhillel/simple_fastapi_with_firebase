@@ -62,3 +62,6 @@ Authorization: TokenID
 ```
 
 
+### License:
+MIT, enjoy :)
+
