@@ -42,16 +42,21 @@ python3 run_api.py
 
 ### How to test:
 1. Create a user in your Firebase Auth App
+
 2. Genertae a TokenID
+```
 POST https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[WEBAPIKEY]
 {
 	"email": "email@gmail.com",
 	"password":"password",
 	"returnSecureToken":true
 }
+```
+
 3. Send a request to your FastAPI protected endpoint
+```
 GET http://127.0.0.1:8000/api/simple_router/firebase_user
-Headers:
 Authorization: TokenID
+```
 
 
